@@ -39,3 +39,20 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.ads {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+  background: linear-gradient(90deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+}
+
+.ads span {
+  max-width: 166px;
+  width: 100%;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
