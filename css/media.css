@@ -40,10 +40,29 @@
     overflow: hidden;
     transition: 500ms linear;
   }
+  
+  .banner {
+    height: 85vh;
+  }
+  
+  .banner__title {
+    font-size: 45px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
   .container {
     max-width: auto;
+  }
+  
+  .banner__btns {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+  
+  .banner__title {
+    font-size: 35px;
   }
 }
