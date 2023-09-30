@@ -9,11 +9,27 @@
     row-gap: 30px;
     justify-items: center;
   }
+  
+  .collections__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    justify-items: center;
+  }
+  
+  .collections__item {
+    max-width: 50%;
+    height: 250px;
+  }
 }
 
 @media (max-width: 992px) {
   .container {
     max-width: 720px;
+  }
+  
+  .collections__item {
+    max-width: 80%;
   }
 }
 
@@ -77,6 +93,10 @@
     justify-content: center;
   }
   
+  .collections__title {
+    margin: 0 auto 30px;
+  }
+  
 }
 
 @media (max-width: 576px) {
@@ -96,5 +116,19 @@
   
   .films {
     padding: 30px 0;
+  }
+  
+  .collections {
+    padding-top: 30px;
+  }
+  
+  .collections__item {
+    height: 190px;
+  }
+  
+  .collection__item-title {
+    max-width: 150px;
+    width: 100%;
+    text-align: center;
   }
 }
