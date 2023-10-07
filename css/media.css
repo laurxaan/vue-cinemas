@@ -110,6 +110,11 @@
     margin: 0 auto 30px;
   }
   
+  .footer .container {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  
 }
 
 @media (max-width: 576px) {
@@ -169,4 +174,10 @@
   }
   
   
+}
+
+@media (max-width: 400px) {
+  .footer__desc {
+    font-size: 16px;
+  }
 }
